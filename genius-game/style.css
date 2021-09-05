@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel&display=swap');
+body {
+    margin: 0;
+    background-color: black;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    font-family: 'Cinzel', serif;
+    font-size: 40px;
+    margin: 20px 0;
+}
+
+.main-game {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: top center;
+}
+
+.genius {
+    display: grid;
+    grid-template-areas: 'verde vermelho' 'amarelo azul';
+    grid-gap: 10px;
+    border: 1px solid #ffffff;
+    background-color: black;
+    width: 500px;
+    height: 500px;
+}
+
+.blue {
+    grid-area: azul;
+    background-color: blue;
+}
+
+.red {
+    grid-area: vermelho;
+    background-color: red;
+}
+
+.yellow {
+    grid-area: amarelo;
+    background-color: yellow;
+}
+
+.green {
+    grid-area: verde;
+    background-color: green;
+}
+
+.selected {
+    opacity: 0.8;
+}
